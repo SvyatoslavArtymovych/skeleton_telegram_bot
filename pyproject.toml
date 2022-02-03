@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "skeleton_telegram_bot"
+version = "0.1.0"
+description = ""
+authors = ["svyatoslav <p0wer.bla4er2014@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyTelegramBotAPI = "^4.4.0"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
